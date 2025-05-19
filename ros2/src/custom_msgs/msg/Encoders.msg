@@ -1,5 +1,9 @@
 std_msgs/Header header
-int64 right_position
-int64 left_position
+float32 wheel_separation
+float32 wheel_radius
+int64 right_motor_counts
+int64 left_motor_counts
+float32 right_position
+float32 left_position
 float32 right_vel
 float32 left_vel

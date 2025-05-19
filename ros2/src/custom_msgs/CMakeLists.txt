@@ -30,6 +30,7 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Encoders.msg"
   "msg/Presence.msg"
+  "srv/Id.srv"
   DEPENDENCIES std_msgs
  )
 
