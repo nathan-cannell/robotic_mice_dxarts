@@ -10,5 +10,3 @@ This is the main repository for the DXArts Robotic Mice Project
 | Daniela Berreth | CSE Student |
 | Nathan Cannell | ECE Student |
 |Martin Li | ECE Student |
-# robotic_mice_dxarts
-# robotic_mice_dxarts
