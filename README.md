@@ -1,5 +1,10 @@
-# DXARTS Robotic Mice
-This is the main repository for the DXArts Robotic Mice Project
+# Robotic Mice DXARTS
+
+Check out some images from the project:
+
+![Mice Exhibit](media/mice_exhibit.png)
+![Lab Setup](media/mice_lab.jpg)
+![Project Poster](media/poster.jpg)
 
 ## The Team
 | Name | Group |
