@@ -2,9 +2,11 @@
 
 Check out some images from the project:
 
-![Mice Exhibit](media/mice_exhibit.png)
-![Lab Setup](media/mice_lab.jpg)
-![Project Poster](media/poster.jpg)
+<p align="center">
+  <img src="media/mice_exhibit.png" width="200" />
+  <img src="media/mice_lab.jpg" width="200" />
+  <img src="media/poster.jpg" width="200" />
+</p>
 
 ## The Team
 | Name | Group |
