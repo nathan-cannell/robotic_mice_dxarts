@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+<!-- source: https://medium.com/teamarimac/integrating-sonar-and-ir-sensor-plugin-to-robot-model-in-gazebo-with-ros-656fd9452607-->
+    <joint name="ir_front_joint" type="fixed">
+        <axis xyz="0 1 0" />
+        <!--  recall: rpy = roll, pitch, yaw -->
+        <origin rpy="0 0 0" xyz="0.5 0 0.1" />
+        <parent link="chassis"/>
+        <child link="base_ir_front"/>
+    </joint>
+
+    <link name="base_ir_front">
+     <visual>
+            <geometry>
+                <box size="0.03 0.03 0.03"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.03 0.03 0.03"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="1e-5" />
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+        </inertial>
+    </link>
+</robot>

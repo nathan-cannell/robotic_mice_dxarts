@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "uros_esp32"
+		},
+		{
+			"path": "ros2"
+		}
+	],
+	"settings": {}
+}

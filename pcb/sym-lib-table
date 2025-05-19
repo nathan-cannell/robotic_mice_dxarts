@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "STHS34PF80TR")(type "KiCad")(uri "${KIPRJMOD}/STHS34PF80TR/STHS34PF80TR.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX17048G_T10")(type "KiCad")(uri "${KIPRJMOD}/MAX17048G_T10/MAX17048G_T10.kicad_sym")(options "")(descr ""))
+  (lib (name "sths34pf80tr")(type "KiCad")(uri "${KIPRJMOD}/STHS34PF80TR/sths34pf80tr.kicad_sym")(options "")(descr ""))
+)

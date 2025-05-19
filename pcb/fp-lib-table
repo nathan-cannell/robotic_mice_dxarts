@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "MAX17048G_T10")(type "KiCad")(uri "${KIPRJMOD}/MAX17048G_T10/footprints.pretty")(options "")(descr ""))
+  (lib (name "STHS34PF80TR")(type "KiCad")(uri "${KIPRJMOD}/STHS34PF80TR/footprints.pretty")(options "")(descr ""))
+)

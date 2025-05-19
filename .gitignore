@@ -1,0 +1,13 @@
+# MacOS
+.DS_Store
+# Build
+visualization_ws/build
+visualization_ws/log
+visualization_ws/install
+# PCB
+pcb/**/*backups
+pcb/**/#auto_saved_files#
+pcb/**/fp-info-cache
+pcb/**/fp-lib-cache
+pcb/**/*-bak
+# Not Ready

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+<!--source: https://classic.gazebosim.org/tutorials?tut=ros_gzplugins and  
+https://answers.ros.org/question/48983/how-to-add-pressure-sensors-gyroscopes-and-accelerometers-to-an-urdf-model/-->
+    <joint name="IMU_joint" type="fixed">     
+        <parent link="base_link"/>
+        <child link="IMU_link"/>
+        <origin xyz="0.2 0.1 0.175"/>
+    </joint>
+
+    <link name="IMU_link">
+    <visual>
+        <geometry>
+                <box size="0.04 0.04 0.04"/>
+        </geometry>
+        <material name="red"/>  
+    </visual>
+    <collision>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+            <box size=".04 .04 .04"/>
+            </geometry>
+    </collision>
+        <inertial>
+            <mass value="0.001"/>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.000001" iyz="0" izz="0.0001"/>
+        </inertial>
+    </link>
+    <gazebo>
+        <plugin name="gazebo_ros_imu" filename="libgazebo_ros_imu.so">
+            <alwaysOn>true</alwaysOn>
+            <bodyName>IMU_link</bodyName>
+            <topicName>imu</topicName>
+            <serviceName>imu_service</serviceName>
+            <gaussianNoise>0.0</gaussianNoise>
+            <updateRate>20.0</updateRate>
+        </plugin>
+        <material>Gazebo/Red</material>
+    </gazebo>
+</robot>
