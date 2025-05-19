@@ -1,4 +1,4 @@
-# Robotic Mice DXARTS
+# Robotic Mice DXARTS Exhibit
 
 Check out some images from the project:
 
