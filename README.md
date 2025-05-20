@@ -103,18 +103,18 @@ Centralized mux nodes subscribe to all `/mouse_X/presence` and `/mouse_X/fuel` t
 **`presence_mux.py` and `fuel_mux.py` (excerpts):**
 PresenceMUX subscribes to all /mouse_X/presence topics and publishes /presence_mux
 class PresenceMUX(Node):
-# ...
+...
 def connect(self):
-mouse_topics = get_mouse_topics(self, "presence")
+mouse_topics = get_mouse_topics(self, "presence") [4]
 # Subscribe to each topic
-[4]
+
 FuelMUX subscribes to all /mouse_X/fuel topics and monitors battery levels
 class FuelMUX(Node):
-# ...
+...
 def connect(self):
-mouse_topics = get_mouse_topics(self, "fuel")
+mouse_topics = get_mouse_topics(self, "fuel") [1]
 # Subscribe to each topic
-[1]
+
 
 ### 4. Localization
 
