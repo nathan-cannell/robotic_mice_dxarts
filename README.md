@@ -113,8 +113,6 @@ class FuelMUX(Node):
 ...
 def connect(self):
 mouse_topics = get_mouse_topics(self, "fuel") [1]
-# Subscribe to each topic
-
 
 ### 4. Localization
 
@@ -132,10 +130,10 @@ robot_localization_node = Node(
 package='robot_localization',
 executable='ekf_node',
 name='ekf_filter_node',
-namespace=namespace,
-# parameters...
-)
+namespace=namespace)
+
 ld.add_action(robot_localization_node)
+
 return ld
 [5]
 
