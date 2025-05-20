@@ -31,6 +31,7 @@ The collective movement of the mice creates a dynamic, unpredictable environment
 | Ethan Widger    | ECE Student    |
 | Daniela Berreth | CSE Student    |
 | Nathan Cannell  | ECE Student    |
+| Sam Han         | ECE Student    |
 | Martin Li       | ECE Student    |
 
 ---
